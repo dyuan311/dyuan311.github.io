@@ -1,0 +1,52 @@
+baseURL: "https://dyuan311.github.io/"
+locale: "zh-cn"
+title: "dyuan311"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+
+minify:
+  minifyOutput: true
+
+params:
+  env: production
+  description: "AI, mathematics, and research notes."
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  assets:
+    disableHLJS: true
+  homeInfoParams:
+    Title: "dyuan311"
+    Content: "AI, mathematics, and research notes."
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 30
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+    style: github
+
+caches:
+  images:
+    dir: :cacheDir/images
