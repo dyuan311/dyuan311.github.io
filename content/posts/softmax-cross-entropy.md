@@ -3,6 +3,7 @@ title: "Softmax 与交叉熵"
 date: 2026-06-14
 draft: false
 math: true
+summary: "这是一篇用于测试博客基础能力的示例文章：行内公式、块级公式、目录和代码高亮。"
 tags: ["AI", "math", "deep learning"]
 categories: ["AI"]
 ---
