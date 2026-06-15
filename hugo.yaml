@@ -11,6 +11,7 @@ minify:
 params:
   env: production
   description: "AI, mathematics, and research notes."
+  disableSpecial1stPost: true
   defaultTheme: auto
   ShowReadingTime: true
   ShowCodeCopyButtons: true
