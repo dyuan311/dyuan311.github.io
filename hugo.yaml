@@ -20,9 +20,6 @@ params:
   ShowBreadCrumbs: true
   assets:
     disableHLJS: true
-  homeInfoParams:
-    Title: "dyuan311"
-    Content: "AI, mathematics, and research notes."
 
 menu:
   main:
