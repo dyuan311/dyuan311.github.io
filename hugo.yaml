@@ -1,6 +1,7 @@
 baseURL: "https://dyuan311.github.io/"
+defaultContentLanguage: "zh"
 locale: "zh-cn"
-title: "dyuan311"
+title: "Dong's Blog"
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
@@ -21,19 +22,23 @@ params:
   ShowBreadCrumbs: true
   assets:
     disableHLJS: true
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
 
 menu:
   main:
     - identifier: posts
-      name: Posts
+      name: 文章
       url: /posts/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: archive
-      name: Archive
+      name: 归档
       url: /archives/
       weight: 30
 
